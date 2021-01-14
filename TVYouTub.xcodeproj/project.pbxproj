@@ -14,6 +14,7 @@
 		C371728625B064F700AA5CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C371728425B064F700AA5CA5 /* LaunchScreen.storyboard */; };
 		C371729125B064F700AA5CA5 /* TVYouTubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371729025B064F700AA5CA5 /* TVYouTubTests.swift */; };
 		C371729C25B064F700AA5CA5 /* TVYouTubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371729B25B064F700AA5CA5 /* TVYouTubUITests.swift */; };
+		C37172AD25B0650A00AA5CA5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37172AC25B0650A00AA5CA5 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C371729725B064F700AA5CA5 /* TVYouTubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVYouTubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C371729B25B064F700AA5CA5 /* TVYouTubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVYouTubUITests.swift; sourceTree = "<group>"; };
 		C371729D25B064F700AA5CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37172AC25B0650A00AA5CA5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C371727B25B064F500AA5CA5 /* AppDelegate.swift */,
 				C371727D25B064F500AA5CA5 /* ContentView.swift */,
+				C37172AC25B0650A00AA5CA5 /* Model.swift */,
 				C371727F25B064F700AA5CA5 /* Assets.xcassets */,
 				C371728425B064F700AA5CA5 /* LaunchScreen.storyboard */,
 				C371728725B064F700AA5CA5 /* Info.plist */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37172AD25B0650A00AA5CA5 /* Model.swift in Sources */,
 				C371727E25B064F500AA5CA5 /* ContentView.swift in Sources */,
 				C371727C25B064F500AA5CA5 /* AppDelegate.swift in Sources */,
 			);
