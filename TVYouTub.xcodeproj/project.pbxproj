@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C371727C25B064F500AA5CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371727B25B064F500AA5CA5 /* AppDelegate.swift */; };
+		C371727E25B064F500AA5CA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371727D25B064F500AA5CA5 /* ContentView.swift */; };
+		C371728025B064F700AA5CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C371727F25B064F700AA5CA5 /* Assets.xcassets */; };
+		C371728325B064F700AA5CA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C371728225B064F700AA5CA5 /* Preview Assets.xcassets */; };
+		C371728625B064F700AA5CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C371728425B064F700AA5CA5 /* LaunchScreen.storyboard */; };
+		C371729125B064F700AA5CA5 /* TVYouTubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371729025B064F700AA5CA5 /* TVYouTubTests.swift */; };
+		C371729C25B064F700AA5CA5 /* TVYouTubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371729B25B064F700AA5CA5 /* TVYouTubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C371728D25B064F700AA5CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C371727025B064F500AA5CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C371727725B064F500AA5CA5;
+			remoteInfo = TVYouTub;
+		};
+		C371729825B064F700AA5CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C371727025B064F500AA5CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C371727725B064F500AA5CA5;
+			remoteInfo = TVYouTub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C371727825B064F500AA5CA5 /* TVYouTub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVYouTub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371727B25B064F500AA5CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C371727D25B064F500AA5CA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C371727F25B064F700AA5CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C371728225B064F700AA5CA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C371728525B064F700AA5CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C371728725B064F700AA5CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C371728C25B064F700AA5CA5 /* TVYouTubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVYouTubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371729025B064F700AA5CA5 /* TVYouTubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVYouTubTests.swift; sourceTree = "<group>"; };
+		C371729225B064F700AA5CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C371729725B064F700AA5CA5 /* TVYouTubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVYouTubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C371729B25B064F700AA5CA5 /* TVYouTubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVYouTubUITests.swift; sourceTree = "<group>"; };
+		C371729D25B064F700AA5CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C371727525B064F500AA5CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371728925B064F700AA5CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371729425B064F700AA5CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C371726F25B064F500AA5CA5 = {
+			isa = PBXGroup;
+			children = (
+				C371727A25B064F500AA5CA5 /* TVYouTub */,
+				C371728F25B064F700AA5CA5 /* TVYouTubTests */,
+				C371729A25B064F700AA5CA5 /* TVYouTubUITests */,
+				C371727925B064F500AA5CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C371727925B064F500AA5CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C371727825B064F500AA5CA5 /* TVYouTub.app */,
+				C371728C25B064F700AA5CA5 /* TVYouTubTests.xctest */,
+				C371729725B064F700AA5CA5 /* TVYouTubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C371727A25B064F500AA5CA5 /* TVYouTub */ = {
+			isa = PBXGroup;
+			children = (
+				C371727B25B064F500AA5CA5 /* AppDelegate.swift */,
+				C371727D25B064F500AA5CA5 /* ContentView.swift */,
+				C371727F25B064F700AA5CA5 /* Assets.xcassets */,
+				C371728425B064F700AA5CA5 /* LaunchScreen.storyboard */,
+				C371728725B064F700AA5CA5 /* Info.plist */,
+				C371728125B064F700AA5CA5 /* Preview Content */,
+			);
+			path = TVYouTub;
+			sourceTree = "<group>";
+		};
+		C371728125B064F700AA5CA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C371728225B064F700AA5CA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C371728F25B064F700AA5CA5 /* TVYouTubTests */ = {
+			isa = PBXGroup;
+			children = (
+				C371729025B064F700AA5CA5 /* TVYouTubTests.swift */,
+				C371729225B064F700AA5CA5 /* Info.plist */,
+			);
+			path = TVYouTubTests;
+			sourceTree = "<group>";
+		};
+		C371729A25B064F700AA5CA5 /* TVYouTubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C371729B25B064F700AA5CA5 /* TVYouTubUITests.swift */,
+				C371729D25B064F700AA5CA5 /* Info.plist */,
+			);
+			path = TVYouTubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C371727725B064F500AA5CA5 /* TVYouTub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37172A025B064F700AA5CA5 /* Build configuration list for PBXNativeTarget "TVYouTub" */;
+			buildPhases = (
+				C371727425B064F500AA5CA5 /* Sources */,
+				C371727525B064F500AA5CA5 /* Frameworks */,
+				C371727625B064F500AA5CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVYouTub;
+			productName = TVYouTub;
+			productReference = C371727825B064F500AA5CA5 /* TVYouTub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C371728B25B064F700AA5CA5 /* TVYouTubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37172A325B064F700AA5CA5 /* Build configuration list for PBXNativeTarget "TVYouTubTests" */;
+			buildPhases = (
+				C371728825B064F700AA5CA5 /* Sources */,
+				C371728925B064F700AA5CA5 /* Frameworks */,
+				C371728A25B064F700AA5CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C371728E25B064F700AA5CA5 /* PBXTargetDependency */,
+			);
+			name = TVYouTubTests;
+			productName = TVYouTubTests;
+			productReference = C371728C25B064F700AA5CA5 /* TVYouTubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C371729625B064F700AA5CA5 /* TVYouTubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37172A625B064F700AA5CA5 /* Build configuration list for PBXNativeTarget "TVYouTubUITests" */;
+			buildPhases = (
+				C371729325B064F700AA5CA5 /* Sources */,
+				C371729425B064F700AA5CA5 /* Frameworks */,
+				C371729525B064F700AA5CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C371729925B064F700AA5CA5 /* PBXTargetDependency */,
+			);
+			name = TVYouTubUITests;
+			productName = TVYouTubUITests;
+			productReference = C371729725B064F700AA5CA5 /* TVYouTubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C371727025B064F500AA5CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C371727725B064F500AA5CA5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C371728B25B064F700AA5CA5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C371727725B064F500AA5CA5;
+					};
+					C371729625B064F700AA5CA5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C371727725B064F500AA5CA5;
+					};
+				};
+			};
+			buildConfigurationList = C371727325B064F500AA5CA5 /* Build configuration list for PBXProject "TVYouTub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C371726F25B064F500AA5CA5;
+			productRefGroup = C371727925B064F500AA5CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C371727725B064F500AA5CA5 /* TVYouTub */,
+				C371728B25B064F700AA5CA5 /* TVYouTubTests */,
+				C371729625B064F700AA5CA5 /* TVYouTubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C371727625B064F500AA5CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371728625B064F700AA5CA5 /* LaunchScreen.storyboard in Resources */,
+				C371728325B064F700AA5CA5 /* Preview Assets.xcassets in Resources */,
+				C371728025B064F700AA5CA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371728A25B064F700AA5CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371729525B064F700AA5CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C371727425B064F500AA5CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371727E25B064F500AA5CA5 /* ContentView.swift in Sources */,
+				C371727C25B064F500AA5CA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371728825B064F700AA5CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371729125B064F700AA5CA5 /* TVYouTubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C371729325B064F700AA5CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C371729C25B064F700AA5CA5 /* TVYouTubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C371728E25B064F700AA5CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C371727725B064F500AA5CA5 /* TVYouTub */;
+			targetProxy = C371728D25B064F700AA5CA5 /* PBXContainerItemProxy */;
+		};
+		C371729925B064F700AA5CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C371727725B064F500AA5CA5 /* TVYouTub */;
+			targetProxy = C371729825B064F700AA5CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C371728425B064F700AA5CA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C371728525B064F700AA5CA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C371729E25B064F700AA5CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		C371729F25B064F700AA5CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37172A125B064F700AA5CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TVYouTub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TVYouTub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.TVYouTub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C37172A225B064F700AA5CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TVYouTub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TVYouTub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.TVYouTub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		C37172A425B064F700AA5CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVYouTubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.TVYouTubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVYouTub.app/TVYouTub";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		C37172A525B064F700AA5CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVYouTubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.TVYouTubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVYouTub.app/TVYouTub";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Release;
+		};
+		C37172A725B064F700AA5CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVYouTubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.TVYouTubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = TVYouTub;
+			};
+			name = Debug;
+		};
+		C37172A825B064F700AA5CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVYouTubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.TVYouTubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = TVYouTub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C371727325B064F500AA5CA5 /* Build configuration list for PBXProject "TVYouTub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C371729E25B064F700AA5CA5 /* Debug */,
+				C371729F25B064F700AA5CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37172A025B064F700AA5CA5 /* Build configuration list for PBXNativeTarget "TVYouTub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37172A125B064F700AA5CA5 /* Debug */,
+				C37172A225B064F700AA5CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37172A325B064F700AA5CA5 /* Build configuration list for PBXNativeTarget "TVYouTubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37172A425B064F700AA5CA5 /* Debug */,
+				C37172A525B064F700AA5CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37172A625B064F700AA5CA5 /* Build configuration list for PBXNativeTarget "TVYouTubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37172A725B064F700AA5CA5 /* Debug */,
+				C37172A825B064F700AA5CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C371727025B064F500AA5CA5 /* Project object */;
+}
