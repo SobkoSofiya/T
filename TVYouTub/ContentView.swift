@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import UIKit
 import AVKit
 
 struct ContentView: View {
     var body: some View {
+        VStack{
+        Text("dfghjk")
         Video()
             .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height, alignment: .center)
+        }
     }
 }
 
@@ -36,3 +40,8 @@ struct Video: UIViewControllerRepresentable {
     }
     
 }
+
+
+
+
+
